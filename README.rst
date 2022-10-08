@@ -10,7 +10,7 @@ $ pip install Flask
 Step 2: Testing
 ---------------
 
-..code-block::text
+..code-block::python
       fromflask import flask
 
 fromflask import flask
