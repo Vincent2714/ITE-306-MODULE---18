@@ -5,13 +5,6 @@ Step 1: Install Flask
 
 To Install Flask open CMD:
 
-.. code-block::python
-
- $ pip install Flask
-
-
- 
-
 $ pip install Flask
 
 Step 2: Testing
