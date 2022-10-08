@@ -12,6 +12,8 @@ Step 2: Testing
 
 ..code-block::text
 
+  fromflask import flask
+
  fromflask import flask
  
 from flask import jsonify
@@ -67,15 +69,13 @@ TO DO:
 
 What is the output if you open this URL while hello.py is running:
 
-'''html
-
 http://127.0.0.1:5000/empdb/employee/
 
 http://127.0.0.1:5000/empdb/employee/101
 
 http://127.0.0.1:5000/empdb/employee/103
 
-'''
+
 
 On your command prompt press "CTRL=C" to end the process of hello.py. What is the output if you open this URL 
 while hello.py is not running:
@@ -84,6 +84,3 @@ http://127.0.0.1:5000/empdb/employee/
 
 If you find this repository helpful then don't forget to give a star 🌟 to this repository. :)
 
-'''javascript
-
-'''
