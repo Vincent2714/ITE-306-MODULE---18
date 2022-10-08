@@ -13,11 +13,8 @@ Step 2: Testing
 * copy hello.py and save it in your selected python compiler and save the program into hello.py
 
 from flask import Flask
-
 from flask import jsonify
-
 from flask import request
-
 app = Flask(__name__)
 empDB=[
 {
@@ -47,7 +44,7 @@ def getEmp(empId):
 
 if __name__ == '__main__':
         app.run()
-open CMD and type the python (hello.py) file directory
+* open CMD and type the python (hello.py) file directory
 C:\Users\Desktop>python C:\Users\Desktop\hello.py
 The Output would be:
 
