@@ -12,9 +12,8 @@ Step 2: Testing
 
 ..code-block::python
 
-
-from flask import Flask
-
+ fromflask import flask
+ 
 from flask import jsonify
 
 from flask import request
