@@ -12,24 +12,24 @@ Step 2: Testing
 
 * copy hello.py and save it in your selected python compiler and save the program into hello.py
 
-.. code-block:: python
+..code-block:: text
 
-from flask import Flask
-from flask import jsonify
-from flask import request
-app = Flask(__name__)
-empDB=[
-{
-'id':'101',
-'name':'Dorry Britz',
-'title':'Technical Leader'
-},
-{
-'id':'102',
-'name':'Barbie Gurl',
-'title':'Software Engineer'
-}
-]
+ from flask import Flask
+ from flask import jsonify
+ from flask import request
+ app = Flask(__name__)
+ empDB=[
+ {
+ 'id':'101',
+ 'name':'Dorry Britz',
+ 'title':'Technical Leader'
+ },
+ {
+ 'id':'102',
+ 'name':'Barbie Gurl',
+ 'title':'Software Engineer'
+ }
+ ]
 
 @app.route("/")
 def hello():
