@@ -10,7 +10,7 @@ $ pip install Flask
 Step 2: Testing
 ---------------
 
-copy hello.py and save it in your selected python compiler and save the program into hello.py
+* copy hello.py and save it in your selected python compiler and save the program into hello.py
 
 from flask import Flask
 
